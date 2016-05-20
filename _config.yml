@@ -1,28 +1,40 @@
-name: OnwardBlue
 favicon: null
-layout_spectrum: 0.26058
-typography_spectrum: 0.5886206638533622
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: OnwardBlue
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 1
+  brandStrength: 1
+  lightness: 0.547884
   brandColors:
     - '#000000'
     - '#1977ba'
     - '#a7a9ac'
     - '#ffffff'
     - '#293b8f'
-  brandStrength: 0.8125
-  lightness: 0.5478840610012412
-  saturation: 0.5625
-  rhythmicContrast: 0.2776235695928335
-purpose: []
+  rhythmicContrast: 1
+typography_spectrum: 0.5886206638533622
+layout_spectrum: 0
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
