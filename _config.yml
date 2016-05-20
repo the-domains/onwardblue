@@ -1,7 +1,5 @@
-cta:
-  bucket: null
-  version: null
-  domain: null
+favicon: null
+name: OnwardBlue
 opengraph:
   image: null
   type: null
@@ -22,19 +20,21 @@ purpose: []
 color:
   saturation: 1
   brandStrength: 1
-  lightness: 0.547884
+  lightness: 0
   brandColors:
     - '#000000'
     - '#1977ba'
     - '#a7a9ac'
     - '#ffffff'
     - '#293b8f'
-  rhythmicContrast: 0
+  rhythmicContrast: 1
 typography_spectrum: 1
-layout_spectrum: 0.5193341
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0
 analytics:
   twitter: null
   google: null
   facebook: null
-favicon: null
-name: OnwardBlue
